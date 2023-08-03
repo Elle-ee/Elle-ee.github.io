@@ -17,14 +17,15 @@
     justify-content: center;
   }
   canvas {
-    border: 1px solid white;
+    border: 1px solid black;
   }
   </style>
     <link rel="icon" type="image/png" href="https://vectorflags.s3-us-west-2.amazonaws.com/flags/org-trans-square-01.png">
 </head>
 <body style="background-color:pink;">
 <center>
-<h1 style="font-family:'Courier New', Courier, monospace;">Henlo, I'm Ellie! (She/They) :></h1>
+<h1 style="font-family:'Courier New', Courier, monospace;">Henlo, I'm Ellie! :></h1>
+<h2 style="font-family: 'Courier New', Courier, monospace;">(She/They)</h2>
 <p style="font-family: 'Courier New', Courier, monospace">I'm an undergraduate student of the department of physics
 of the Aristotle University of Thessaloniki and a decent (at best) guitarist. I do coding and stuff sometimes
 but I suck at it quite a bit. Here you'll find some of my links OwO: </p>
@@ -104,11 +105,11 @@ function loop() {
   }
 
   // draw apple
-  context.fillStyle = 'red';
+  context.fillStyle = 'black';
   context.fillRect(apple.x, apple.y, grid-1, grid-1);
 
   // draw snake one cell at a time
-  context.fillStyle = 'green';
+  context.fillStyle = 'lightblue';
   snake.cells.forEach(function(cell, index) {
     
     // drawing 1 px smaller than the grid creates a grid effect in the snake body so you can see how long it is
