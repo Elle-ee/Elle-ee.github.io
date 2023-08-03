@@ -120,8 +120,8 @@ function loop() {
       snake.maxCells++;
 
       // canvas is 400x400 which is 25x25 grids 
-      apple.x = getRandomInt(0, 12) * grid;
-      apple.y = getRandomInt(0, 12) * grid;
+      apple.x = getRandomInt(0, 12.5) * grid;
+      apple.y = getRandomInt(0, 12.5) * grid;
     }
 
     // check collision with all cells after this one (modified bubble sort)
@@ -136,8 +136,8 @@ function loop() {
         snake.dx = grid;
         snake.dy = 0;
 
-        apple.x = getRandomInt(0, 12) * grid;
-        apple.y = getRandomInt(0, 12) * grid;
+        apple.x = getRandomInt(0, 12.5) * grid;
+        apple.y = getRandomInt(0, 12.5) * grid;
       }
     }
   });
