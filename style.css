@@ -5,3 +5,7 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
+
+  .dorito{
+      cursor: url('dorito.png'), auto;
+    }
