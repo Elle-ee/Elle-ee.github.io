@@ -1,0 +1,22 @@
+body{
+    background-image: url(akakcaB.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h4 {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.589);
+}
+h1 {
+  -webkit-text-stroke-width: 1.3px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.589);
+}
+button {
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.555);
+}
+  .dorito{
+      cursor: url('dorito.png'), auto;
+    }
